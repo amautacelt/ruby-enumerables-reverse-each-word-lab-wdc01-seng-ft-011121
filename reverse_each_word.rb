@@ -3,6 +3,7 @@ def reverse_each_word(sentence)
   #sentence.each do |sentence|
     #puts "Hello #{sentence.collect}!"
     print phrase.split(" ")
+    phrase.reverse
   #end
 end
 
