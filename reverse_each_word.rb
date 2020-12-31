@@ -1,10 +1,14 @@
 def reverse_each_word(sentence)
-  phrase = "Hello there, and how are you?"
+  #phrase = "Hello there, and how are you?"
   #sentence.each do |sentence|
     #puts "Hello #{sentence.collect}!"
-    print phrase.split(" ")
-    phrase.reverse
+    #print phrase.split(" ")
+    #phrase.reverse
   #end
+  
+  sentence.split.map {|word| word.reverse}.join(" ")
+end
+  
 end
 
 #reverse_each_word("Hello there, and how are you?")
