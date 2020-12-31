@@ -6,7 +6,8 @@ def reverse_each_word(sentence)
     #phrase.reverse
   #end
   
-  sentence.split.map {|word| word.reverse}.join(" ")
+  sentence.split.each {|word| word.reverse}.join(" ")
+  
 end
 
 #reverse_each_word("Hello there, and how are you?")
